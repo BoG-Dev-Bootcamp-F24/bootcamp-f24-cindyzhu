@@ -1,0 +1,31 @@
+body {
+    background-color: rgb(32, 75, 155);
+}
+
+img {
+    border: 5px double aliceblue;
+    border-radius: 50%;
+    margin: auto;
+    margin-bottom: 100px;
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+}
+
+img:hover {
+    width: 5px;
+}
+
+div {
+    background-color: rgb(65, 109, 191);
+    width: 400px;
+    height: 200px;
+    padding: 10px;
+    margin: auto;
+    border: 10px double aliceblue;
+    display: flex;
+    align-items: center;
+
+    color: aliceblue;
+    text-align: center;
+}
