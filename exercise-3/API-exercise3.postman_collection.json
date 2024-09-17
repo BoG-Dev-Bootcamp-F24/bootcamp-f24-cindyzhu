@@ -1,0 +1,380 @@
+{
+	"info": {
+		"_postman_id": "d4d1ceb3-5121-4f2c-ad0a-f1cd75ffc935",
+		"name": "API-exercise3",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "38362214"
+	},
+	"item": [
+		{
+			"name": "https://collectionapi.metmuseum.org/public/collection/v1/objects/1000",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://collectionapi.metmuseum.org/public/collection/v1/objects/1000",
+					"protocol": "https",
+					"host": [
+						"collectionapi",
+						"metmuseum",
+						"org"
+					],
+					"path": [
+						"public",
+						"collection",
+						"v1",
+						"objects",
+						"1000"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://metmuseum.github.io/",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://metmuseum.github.io/",
+					"protocol": "https",
+					"host": [
+						"metmuseum",
+						"github",
+						"io"
+					],
+					"path": [
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://collectionapi.metmuseum.org/public/collection/v1/search?q=bread",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://collectionapi.metmuseum.org/public/collection/v1/search?q=bread",
+					"protocol": "https",
+					"host": [
+						"collectionapi",
+						"metmuseum",
+						"org"
+					],
+					"path": [
+						"public",
+						"collection",
+						"v1",
+						"search"
+					],
+					"query": [
+						{
+							"key": "q",
+							"value": "bread"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://collectionapi.metmuseum.org/public/collection/v1/objects/1",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "https://collectionapi.metmuseum.org/public/collection/v1/objects/1",
+					"protocol": "https",
+					"host": [
+						"collectionapi",
+						"metmuseum",
+						"org"
+					],
+					"path": [
+						"public",
+						"collection",
+						"v1",
+						"objects",
+						"1"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "https://collectionapi.metmuseum.org/public/collection/v1/objects/1",
+					"originalRequest": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "https://collectionapi.metmuseum.org/public/collection/v1/objects/1",
+							"protocol": "https",
+							"host": [
+								"collectionapi",
+								"metmuseum",
+								"org"
+							],
+							"path": [
+								"public",
+								"collection",
+								"v1",
+								"objects",
+								"1"
+							]
+						}
+					},
+					"status": "Method Not Allowed",
+					"code": 405,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=UTF-8"
+						},
+						{
+							"key": "Vary",
+							"value": "Origin"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "X-Powered-By",
+							"value": "ARR/3.0"
+						},
+						{
+							"key": "X-Powered-By",
+							"value": "ASP.NET"
+						},
+						{
+							"key": "Date",
+							"value": "Mon, 16 Sep 2024 06:07:59 GMT"
+						},
+						{
+							"key": "Content-Length",
+							"value": "32"
+						},
+						{
+							"key": "Set-Cookie",
+							"value": "incap_ses_358_1662004=d4GpA7Q0SmX2hMSoW9/3BD/L52YAAAAAh7g1nK2tklXkyin99AiBMw==; path=/; Domain=.metmuseum.org"
+						},
+						{
+							"key": "X-CDN",
+							"value": "Imperva"
+						},
+						{
+							"key": "X-Iinfo",
+							"value": "6-18615852-18615858 NNNN CT(84 183 0) RT(1726466879095 13) q(0 0 2 4) r(3 3) U6"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"message\": \"Method Not Allowed\"\n}"
+				}
+			]
+		},
+		{
+			"name": "https://httpbin.org/post",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"city\": \"Atlanta\",\n    \"state\": \"Georgia\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://httpbin.org/post",
+					"protocol": "https",
+					"host": [
+						"httpbin",
+						"org"
+					],
+					"path": [
+						"post"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "https://httpbin.org/post",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"city\": \"Atlanta\",\n    \"state\": \"Georgia\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://httpbin.org/post",
+							"protocol": "https",
+							"host": [
+								"httpbin",
+								"org"
+							],
+							"path": [
+								"post"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Mon, 16 Sep 2024 05:52:28 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Content-Length",
+							"value": "647"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Server",
+							"value": "gunicorn/19.9.0"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Access-Control-Allow-Credentials",
+							"value": "true"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"args\": {},\n    \"data\": \"{\\n    \\\"city\\\": \\\"Atlanta\\\",\\n    \\\"state\\\": \\\"Georgia\\\"\\n}\",\n    \"files\": {},\n    \"form\": {},\n    \"headers\": {\n        \"Accept\": \"*/*\",\n        \"Accept-Encoding\": \"gzip, deflate, br\",\n        \"Cache-Control\": \"no-cache\",\n        \"Content-Length\": \"49\",\n        \"Content-Type\": \"application/json\",\n        \"Host\": \"httpbin.org\",\n        \"Postman-Token\": \"8a6e9402-bd79-4b50-bff8-63a0e7c780a4\",\n        \"User-Agent\": \"PostmanRuntime/7.42.0\",\n        \"X-Amzn-Trace-Id\": \"Root=1-66e7c79c-5404682948368ba601574493\"\n    },\n    \"json\": {\n        \"city\": \"Atlanta\",\n        \"state\": \"Georgia\"\n    },\n    \"origin\": \"54.86.50.139\",\n    \"url\": \"https://httpbin.org/post\"\n}"
+				}
+			]
+		},
+		{
+			"name": "https://collectionapi.metmuseum.org/public/collection/v1/search",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"city\": \"Paris\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://collectionapi.metmuseum.org/public/collection/v1/search",
+					"protocol": "https",
+					"host": [
+						"collectionapi",
+						"metmuseum",
+						"org"
+					],
+					"path": [
+						"public",
+						"collection",
+						"v1",
+						"search"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "https://collectionapi.metmuseum.org/public/collection/v1/search",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"city\": \"Paris\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://collectionapi.metmuseum.org/public/collection/v1/search",
+							"protocol": "https",
+							"host": [
+								"collectionapi",
+								"metmuseum",
+								"org"
+							],
+							"path": [
+								"public",
+								"collection",
+								"v1",
+								"search"
+							]
+						}
+					},
+					"status": "Method Not Allowed",
+					"code": 405,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=UTF-8"
+						},
+						{
+							"key": "Vary",
+							"value": "Origin"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "X-Powered-By",
+							"value": "ARR/3.0"
+						},
+						{
+							"key": "X-Powered-By",
+							"value": "ASP.NET"
+						},
+						{
+							"key": "Date",
+							"value": "Mon, 16 Sep 2024 05:52:19 GMT"
+						},
+						{
+							"key": "X-CDN",
+							"value": "Imperva"
+						},
+						{
+							"key": "Content-Encoding",
+							"value": "gzip"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "X-Iinfo",
+							"value": "13-67100235-67100238 SNYy RT(1726465931395 8162) q(0 0 0 -1) r(1 1) U6"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"message\": \"Method Not Allowed\"\n}"
+				}
+			]
+		}
+	]
+}
